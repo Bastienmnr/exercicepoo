@@ -1,6 +1,6 @@
 package fr.dampierre;
 
-import javax.print.event.PrintJobListener;
+
 
 public class Employe {
   private String nom;
