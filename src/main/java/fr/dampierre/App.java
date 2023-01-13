@@ -20,14 +20,17 @@ public class App {
 
   Compte1.affichierInfo();
 
-  Compte1.retraitBanque(1300);
+  Compte1.retraitBanque(600);
+  Compte1.depotBanque(150);
   Compte1.affichierInfo();
 
-  Compte1.depotBanque(500);
+  Compte1.retraitBanque(600);
+  Compte1.depotBanque(150);
+
+ 
   Compte1.affichierInfo();
 
-  Compte1.retraitBanque(1300);
-  Compte1.affichierInfo();
+ 
  
 
 

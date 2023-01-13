@@ -10,11 +10,11 @@ CompteBanquaire (String nomProprietaire,int solde) {
 }
 
 public void depotBanque (int depot) {
-    solde = solde + depot ;
+ if (depot>0) {   solde = solde + depot ; } 
 }
 
 public void retraitBanque (int retrait ) {
-    if (retrait < solde) {
+    if (retrait <= solde) {
     solde = solde - retrait;}
     else System.out.println("ERREUR, il vous manque "+ (retrait-solde) +" euros pour effectuer ce retrait");
 }
